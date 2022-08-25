@@ -307,4 +307,82 @@ import java.util.Scanner;
   //         System.out.println("odd");
   //     }
   // }
+  // Scanner sc = new Scanner(System.in);
+  // String line = sc.next();
+  // int sum = 0;
+  // // String[] array = line.split("");
+  // for (int i=0;i<line.length();i++){
+  //     sum += Character.getNumericValue(line.charAt(i));
+  // }
+  // System.out.println(sum);
+
+  // Scanner sc = new Scanner(System.in);
+  // int line = sc.nextInt();
+  // for(int i=0; i <line;i++){
+  //     int n = sc.nextInt();
+  //     System.out.println(n*(i+1));
+  }
+
+  // Scanner sc = new Scanner(System.in);
+  // int line = sc.nextInt();
+  // int sum = 0;
+  // int amari = 0;
+  // while (amari== 0) {
+  //     amari = line%2;
+  //     if (amari==0){
+  //         sum +=1;
+  //         line /= 2;
+  //     }
+  // }
+  // System.out.println(sum);
+  // Scanner sc = new Scanner(System.in);
+  // int line = sc.nextInt();
+  // int waru = sc.nextInt();
+  // int sum = 0;
+  // int amari = 0;
+  // while(amari == 0){
+  //     amari = line%waru;
+  //     if(amari == 0){
+  //        sum += 1;
+  //        line /= waru;
+  //     }
+  // }
+  // System.out.println(sum);
+  // Scanner sc = new Scanner(System.in);
+  // int num = sc.nextInt();
+  // String bin = "";
+  // do {
+  //     if(0 == (num%2)){
+  //         bin = "0" + bin;
+  //     }else {
+  //         bin = "1" + bin;
+  //     }
+      
+  //     num = num/2;
+  // }while(0 < num);
+  // System.out.println(bin);
+  // Scanner sc = new Scanner(System.in);
+  // int line = sc.nextInt();
+  // int waru = sc.nextInt();
+  // String bin = "";
+  // do {
+  //     Integer amari = line%waru;
+  //     bin = (amari).toString() + bin;
+  //     line /= waru;
+  // }while(0<line);
+  // System.out.println(bin);
+
+//   Scanner sc = new Scanner(System.in);
+//   int line = sc.nextInt();
+//   int[] array = new int[line];
+//   for(int i=0; i<line;i++){
+//       array[i] = sc.nextInt();
+//   }
+  
+//   int sum = 0;
+//   for(int i: array){
+//       sum += i;
+//   }
+//   System.out.println(sum);
+// }
 }
