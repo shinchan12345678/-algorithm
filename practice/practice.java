@@ -385,4 +385,66 @@ import java.util.Scanner;
 //   }
 //   System.out.println(sum);
 // }
+
+// Scanner sc = new Scanner(System.in);
+// int n = sc.nextInt();
+// int m = sc.nextInt();
+// int k = sc.nextInt();
+// int count = 0;
+// while (n<=k){
+//     n +=m;
+//     count += 1;
+// }
+// System.out.println(count);
+
+// Scanner sc = new Scanner(System.in);
+// int n = sc.nextInt();
+// int k = sc.nextInt();
+// int count = 0;
+// while(n<=k){
+//     n *= 1.1;
+//     // System.out.println(n);
+//     count += 1;
+// }
+// System.out.println(count);
+// Scanner sc = new Scanner(System.in);
+// int line = sc.nextInt();
+// int count = 1;
+// for(int i=1;i<=line;i++){
+//     count *= i;
+// }
+// System.out.println(count);
+// Scanner sc = new Scanner(System.in);
+// int line = sc.nextInt();
+// int[] array = new int[line];
+// for (int i=0;i<line;i++){
+//     array[i] = sc.nextInt();
+// }
+
+// int max = 0;
+// for(int i:array){
+//     if(i > max){
+//         max =i;
+//     }
+// }
+
+// System.out.println(max);
+
+// Scanner sc = new Scanner(System.in);
+// int line = sc.nextInt();
+// int[] array = new int[line];
+// for(int i=0;i<line;i++){
+//     array[i] = sc.nextInt();
+// }
+
+// int min = 100000;
+// for(int i:array){
+//     if(min>i){
+//         min = i;
+//     }
+// }
+// System.out.println(min);
+
 }
+
+
